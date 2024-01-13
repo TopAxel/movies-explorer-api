@@ -1,5 +1,7 @@
 const allowedCors = [
+  'https://api.popovartemmovies.nomoredomainsmonster.ru',
   'https://popovartemmovies.nomoredomainsmonster.ru',
+  'http://localhost:3000',
 ];
 const cors = (req, res, next) => {
   const { origin } = req.headers;
